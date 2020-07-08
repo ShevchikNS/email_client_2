@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "emailClient_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "emailClient_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "emailClient_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  },
+  "server": {
+    "port": "5000"
+  },
+  "crypto": {
+    "algorithm": "aes-256-ctr",
+    "password": "d6F3Efeq"
+  },
+  "imap": {
+    "port": "993"
+  }
+}
